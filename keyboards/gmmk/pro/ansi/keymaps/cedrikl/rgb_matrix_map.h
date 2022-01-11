@@ -18,8 +18,10 @@
 #ifdef RGB_MATRIX_ENABLE
 
     // Custom RGB Colours
-    const HSV hsv_cl_blue   = {150, 255, 255};
-    const HSV hsv_cl_purple = {188, 255, 255};
+    const HSV hsv_cl_blue   = {145, 255, 255};
+    const HSV hsv_cl_purple = {190, 255, 255};
+    const HSV hsv_cl_green  = {82,  255, 255};
+    const HSV hsv_cl_pink   = {230, 255, 255};
     const HSV hsv_cl_numpad = {85,  255, 255};
     const HSV hsv_cl_mods   = {42,  255, 255};
     const HSV hsv_cl_bad    = {0,   255, 255};
@@ -161,16 +163,26 @@ const uint8_t LED_REGION_R_SIDE[] = {LED_R1, LED_R2, LED_R3, LED_R4, LED_R5, LED
                                                                                                                       LED_LBRC, LED_RBRC,
                                                                                                                                           LED_ENT,
                                                                                                             LED_DOT
-  
+
     };
 
     const uint8_t LED_REGION_OTHER[] = {
-        LED_ESC,                                                                                                                          LED_DEL,
+
                                                                                                                                                               LED_HOME,
 
                  LED_A,    LED_S,    LED_D,
                                                                                                                                                               LED_END,
                  LED_LWIN
+    };
+
+
+    const uint8_t LED_REGION_SYSTEM[] = {
+        LED_ESC,                                                                                                                          LED_DEL
+
+
+
+
+
     };
 
     const uint8_t LED_REGION_CAPS[] = {

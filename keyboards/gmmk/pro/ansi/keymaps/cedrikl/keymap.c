@@ -117,6 +117,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 //rgb_matrix_set_color_all(RGB_AZURE);
                 loop_colorset(LED_REGION_NUMPAD, (sizeof(LED_REGION_NUMPAD) / sizeof(LED_REGION_NUMPAD[0])), hsv_cl_numpad);
                 loop_colorset(LED_REGION_OTHER,  (sizeof(LED_REGION_OTHER) / sizeof(LED_REGION_OTHER[0])),   hsv_cl_mods);
+                loop_colorset(LED_REGION_SYSTEM, (sizeof(LED_REGION_SYSTEM) / sizeof(LED_REGION_SYSTEM[0])), hsv_cl_bad);
             break;
             default: //layer 0
                 //

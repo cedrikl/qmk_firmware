@@ -23,3 +23,4 @@
     #define RGB_DISABLE_WHEN_USB_SUSPENDED
     #define RGB_MATRIX_STARTUP_VAL 120
 #endif
+
